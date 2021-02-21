@@ -1,0 +1,7 @@
+Thinking1：如果你是某P2P租车的技术负责人，你会如何设计个性化推荐和搜索排序
+
+基于Embedding的实时个性化推荐：
+计算用户的user type embedding与候选listing的listing type embedding之间的余弦相似度
+推荐给用户相似度高的listing
+
+可能的embedding策略：Listing Embedding，User Type Embedding和Listing Type Embedding
